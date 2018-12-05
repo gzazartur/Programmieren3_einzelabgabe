@@ -1,0 +1,16 @@
+Pseudo-Code Monte-Carlo
+n = 1000
+y = 0
+
+for i in range n
+   x = random(0,1)
+   y = random(0,1)
+   dis = sqrt(x*x + y*y)
+   if dis <= 1
+      y += 1
+
+pi = 4y/n
+
+
+Pseudo-Code Traveling Salesman
+Zuerst wird eine Anfangsstadt ausgewählt. Diese entfernt man aus der Liste von Städten. Danach geht man, vom Startpunkt, durch mögliche Pfaden. Bei mehreren möglichen Pfade fügt man die Teilpfade zur Kombination hinzu. Am Ende sucht man sich den kürzesten weg heraus. 
